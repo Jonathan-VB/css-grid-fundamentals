@@ -1,5 +1,11 @@
 ![](https://res.cloudinary.com/wesbos/image/upload/v1515524452/GRID-social-share_wlfzk3.png)
 
+# Personal notes
+To start, in terminal navigate to the project root folder and enter 'npm i' to install dependencies (node needs to be installed on your machine).
+
+Once installed, enter 'npm start' and then navigate to the desired folder in your browser
+
+
 # CSS Grid Video Course
 
 Hey! These are the starter files and finished solutions. Grab the full course over at [CSSGrid.io](https://CSSGrid.io).
