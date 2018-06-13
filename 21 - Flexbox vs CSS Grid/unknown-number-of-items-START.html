@@ -16,7 +16,7 @@
       unknown.innerHTML += `<div class="item">${unknown.childElementCount}</div>`;
     }
   </script>
-  <button onClick="addItem()">+ Add</button>
+  <button onclick="addItem()">+ Add</button>
   <div class="unknown">
     <div class="item">1</div>
     <div class="item">2</div>
@@ -24,7 +24,11 @@
   </div>
 
   <style>
-    .unknown {}
+    .unknown {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+      grid-gap: 20px;
+    }
   </style>
 </body>
 
